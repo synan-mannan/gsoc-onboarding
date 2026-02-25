@@ -13,7 +13,9 @@ import org.http4s.dom.FetchClientBuilder
 
 val contributors: List[(String, Resource[IO, HtmlElement[IO]])] = List(
   "antoniojimenez" -> AntonioJimenez.component,
-  "armanbilge" -> ArmanBilge.component
+  "armanbilge" -> ArmanBilge.component,
+  "djspiewak" -> DanielSpiewak.component,
+  "valencik" -> AndrewValencik.component
 )
 
 object Main extends IOWebApp:
