@@ -17,7 +17,7 @@ final case class ValidationResponse(valid: Boolean, outOfOrder: Option[OutOfOrde
     derives Decoder
 
 object Validation:
-  val workerUrl = "https://cloudflare-typelevel.org"
+  val workerUrl = "https://gsoc-onboarding-backend.antonio-jimenez-nieto.workers.dev/"
 
   def request(handles: List[String]): Request[IO] =
     Request[IO](Method.POST, Uri.unsafeFromString(workerUrl))
