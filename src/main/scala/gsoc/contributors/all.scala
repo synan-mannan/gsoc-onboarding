@@ -10,6 +10,7 @@ val allContributors = NonEmptyList.of(
   `scala-steward`,
   valencik,
   armanbilge,
+  guptapratykshh,
   `octocat`,
   djspiewak
 )
