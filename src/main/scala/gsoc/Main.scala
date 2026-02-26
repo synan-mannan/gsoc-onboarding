@@ -20,8 +20,8 @@ import org.http4s.syntax.all.*
 
 val allContributors = NonEmptyList.of(
   antoniojimeneznieto,
-  armanbilge,
   valencik,
+  armanbilge,
   djspiewak
 )
 
