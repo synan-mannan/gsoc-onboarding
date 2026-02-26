@@ -19,7 +19,7 @@ def mkBio(handle: String) = SignallingRef[IO].of(false).toResource.flatMap { bee
     p(
       "I am ",
       strong(s"@$handle"),
-      " on GitHub. I am a bot account.",
+      " on GitHub. I am a bot account. ",
       (beepBoop: Signal[IO, Boolean]).ifF("Beep!", "Boop!")
     ),
     button(
