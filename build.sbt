@@ -19,7 +19,6 @@ lazy val root = project
       "com.armanbilge" %%% "calico" % calicoVersion,
       "org.http4s" %%% "http4s-circe" % http4sVersion,
       "io.circe" %%% "circe-core" % circeVersion,
-      "io.circe" %%% "circe-generic" % circeVersion,
       "io.circe" %%% "circe-parser" % circeVersion,
       "org.http4s" %%% "http4s-dom" % http4sDomVersion
     )
